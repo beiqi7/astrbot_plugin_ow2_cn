@@ -1,0 +1,662 @@
+{
+"576460752303423579": {
+"name": "阿努比斯神殿",
+"mode": "攻防作战",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5296568b398ce1c7249d635fac13dd255799f921242ef50d157904b34ced5814.png"
+},
+"576460752303423700": {
+"name": "国王大道",
+"mode": "攻击/护送",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163635-navdsz75oy.jpg"
+},
+"576460752303423845": {
+"name": "花村",
+"mode": "攻防作战",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7b12aa392c58ed0f9f1778a1e372f33002714f9df8590f58f52995d5528a79d1.png"
+},
+"576460752303423876": {
+"name": "监测站：直布罗陀",
+"mode": "运载目标",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163645-l5p8ymkcj9.jpg"
+},
+"576460752303423956": {
+"name": "努巴尼",
+"mode": "攻击/护送",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163637-69zrf3camq.jpg"
+},
+"576460752303423963": {
+"name": "沃斯卡娅工业区",
+"mode": "攻防作战",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/0193ae26d4459ebfbc94daa59d57ba498a6c609ba39469eab458e7e2207f17db.png"
+},
+"576460752303424175": {
+"name": "好莱坞",
+"mode": "攻击/护送",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163635-cnimha65g1.jpg"
+},
+"576460752303424195": {
+"name": "多拉多",
+"mode": "运载目标",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163645-up415lk8hf.jpg"
+},
+"576460752303424695": {
+"name": "尼泊尔",
+"mode": "占领要点",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163646-uhy9eo0zms.jpg"
+},
+"576460752303424955": {
+"name": "66号公路",
+"mode": "运载目标",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163645-w9sg7zt5fv.jpg"
+},
+"576460752303425121": {
+"name": "教学模式",
+"mode": "教学模式",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5adfa439fc3cd4e0891c89780fd04252915f6f9d7192f11549dfba22605165c6.png"
+},
+"576460752303425122": {
+"name": "漓江塔",
+"mode": "占领要点",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163645-8ndl61pfha.jpg"
+},
+"576460752303425133": {
+"name": "伊利奥斯",
+"mode": "占领要点",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163646-iwsvml6yk1.jpg"
+},
+"576460752303425160": {
+"name": "训练靶场",
+"mode": "训练模式",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/037dccd7bbff52a0d4185a3f184fabf6c6727044fa367da791cee03cffb18355.png"
+},
+"576460752303425165": {
+"name": "艾兴瓦尔德",
+"mode": "攻击/护送",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163634-husr9bv6lg.jpg"
+},
+"576460752303425182": {
+"name": "绿洲城",
+"mode": "占领要点",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163646-n925wpde73.jpg"
+},
+"576460752303425195": {
+"name": "好莱坞",
+"mode": "攻击/护送",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163635-cnimha65g1.jpg"
+},
+"576460752303425201": {
+"name": "国王大道",
+"mode": "攻击/护送",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163635-navdsz75oy.jpg"
+},
+"576460752303425203": {
+"name": "弗格体育场",
+"mode": "动感斗球",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/dd2ece0b807dc8264e643f088e15a82729a3af7c6daa2f276dc1cc7dbb79f215.png"
+},
+"576460752303425205": {
+"name": "花村",
+"mode": "攻防作战",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ccd44146254bf04dd336a828e46a8a661e7edafbfaf8671bda379bef22f2e1c2.png"
+},
+"576460752303425207": {
+"name": "漓江塔",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e2a34f5f30072b4ebdaf2683bf5aa7482320bdcabe378d13839fe35640a65475.png"
+},
+"576460752303425223": {
+"name": "VPP Green Room",
+"mode": "",
+"icon": ""
+},
+"576460752303425225": {
+"name": "怪鼠复仇",
+"mode": "合作模式",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2bfb02e4aafd72dc641ac7c9013e7d7d69fffc465925682bc7874f1e7b0e2657.png"
+},
+"576460752303425233": {
+"name": "生态监测站：南极洲",
+"mode": "决斗先锋",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e46b8887d33767ad192bb053ac94c04c076e7bc0223cc99c0d01922ae3597e9b.png"
+},
+"576460752303425235": {
+"name": "“地平线”月球基地",
+"mode": "攻防作战",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/cb00c0019f8ba7c78b5208115e1eae22cb768607601f89bc6d93a4e52b843189.png"
+},
+"576460752303425285": {
+"name": "墓园",
+"mode": "决斗先锋",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a7fef71bd281d105dcd1d6b560eea17e41c0d5e4206b7116a58060667fbf4d33.png"
+},
+"576460752303425292": {
+"name": "黑森林",
+"mode": "决斗先锋",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/aeb149db5d67cc39ad9049f6059fc76bdda6beb2aa83039ae54054e37430ad47.png"
+},
+"576460752303425293": {
+"name": "生态监测站：南极洲",
+"mode": "决斗先锋",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/db0f378407a97ecc8b2d013ceb7ddfe10012933b073a162c53bbe8173da3fa72.png"
+},
+"576460752303425297": {
+"name": "漓江塔庭院",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/82363b6cd14f971461de9440d6096608dff91fd597697f050018ac254b13a7af.png"
+},
+"576460752303425298": {
+"name": "漓江塔夜市",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5696401c7f1a1a7b872c59fdd0a536503dcf7deb83969869194e8177f1731b7c.png"
+},
+"576460752303425303": {
+"name": "尼泊尔圣所",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f549ae83dc94d00fe6564c67621259a10873f9589bc5f77f3cf6cbcb05adabad.png"
+},
+"576460752303425306": {
+"name": "漓江塔控制中心",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/787eba9d981e7424c3a8106244ce943c00e14837980924949cb02baad621d67a.png"
+},
+"576460752303425308": {
+"name": "城堡",
+"mode": "决斗先锋",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/70e6220b293f8d202874b210dc26c5882d1383873eaed79a7519dd81b4e6a8eb.png"
+},
+"576460752303425334": {
+"name": "尼泊尔村庄",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/72847f75db49e456e1c545b3912ed6aae7e76edcfd7a7895dcf7e77a53681d65.png"
+},
+"576460752303425336": {
+"name": "尼泊尔圣坛",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5456110694a09aec86cc73455adce3426b8523a104dfdc9bc6b092be21c059f1.png"
+},
+"576460752303425338": {
+"name": "伊利奥斯深井",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/106912039b53e3793d93803afc855b988bb41eb662866b1898746fe29789f953.png"
+},
+"576460752303425341": {
+"name": "伊利奥斯灯塔",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/654db2c823fcd0d21cdccfef285c12a48ce0fc3fe5ef63d226a68a896e982025.png"
+},
+"576460752303425342": {
+"name": "伊利奥斯废墟",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c0c0df1aa19bfe8c6c168dac96af6112c44ebb206fdaaf89dff5c07f80a04aff.png"
+},
+"576460752303425348": {
+"name": "漓江塔控制中心",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e0dbd13d5b02d5e1d456cfb14b2e34e828b62095067bfbb89e85b755a080c3fd.png"
+},
+"576460752303425349": {
+"name": "漓江塔庭院",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b6ceffc96b3085fcc71328be71f91091ed5c83202e5b46334f619c6a154628ff.png"
+},
+"576460752303425350": {
+"name": "漓江塔夜市",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2756300a5b6c88bf11d17dba28be5627b835059630ac11446e33c3064f3fbe3b.png"
+},
+"576460752303425354": {
+"name": "绿洲城中心",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/261279e87fd147e068877260fad359bc91a340d1ce6f960087eb826890b7e0a2.png"
+},
+"576460752303425356": {
+"name": "绿洲城花园",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bf32b4b7c0de65ee656e2fad5e66d3daccdf8bb36530ee5471da89ffaddc362d.png"
+},
+"576460752303425357": {
+"name": "绿洲城大学",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/94dce30940fa6a52c29ae3beac17b805be1099be3e578d90839bc758449fa75d.png"
+},
+"576460752303425366": {
+"name": "渣客镇",
+"mode": "运载目标",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163645-w9y07ezkc6.jpg"
+},
+"576460752303425374": {
+"name": "暴雪世界",
+"mode": "攻击/护送",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163634-rn0u4hbfsc.jpg"
+},
+"576460752303425441": {
+"name": "阿育陀耶",
+"mode": "勇夺锦旗",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5d460188ece63e6c8d9078e64bbd6e1257e175da8e741eaa359151051b78c492.png"
+},
+"576460752303425444": {
+"name": "吉拉德堡",
+"mode": "死斗",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/354f7dc0e93e58c6e67c0dcbccc6c0022783f50288cf37eadf43a5843497dcf7.png"
+},
+"576460752303425506": {
+"name": "釜山",
+"mode": "占领要点",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163645-ls2rs3tn8f.jpg"
+},
+"576460752303425524": {
+"name": "阿德勒斯布鲁恩",
+"mode": "攻击/护送",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1f75b70c12f973e3c1fc7482adabcc094dea7523c3ec11ddb3586b5a9edfbfb0.png"
+},
+"576460752303425527": {
+"name": "黑森林",
+"mode": "决斗先锋",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/56a762065f73950d1f50dcd92e940ff79ea89888f48e785481f77af0a8491df2.png"
+},
+"576460752303425533": {
+"name": "圣诞节尼泊尔村庄",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/536f41e452173932f3b3bf7211fbf0e11a4e508935f5a48cab7f4e6e57b81713.png"
+},
+"576460752303425575": {
+"name": "皇家赛道",
+"mode": "运载目标",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163645-ql9zds8tkh.jpg"
+},
+"576460752303425590": {
+"name": "吉拉德堡",
+"mode": "死斗",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/16d8a77ff163c9ad6d8edf8fbea11bd89899cd50bc4f633cd8b9e9b1eea9ec61.png"
+},
+"576460752303425649": {
+"name": "里阿尔托",
+"mode": "运载目标",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163645-1suo5vljys.jpg"
+},
+"576460752303425680": {
+"name": "佩特拉",
+"mode": "死斗",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/efd05671d608228c37f63323f12aa270577473f8c4cf82b744a799ee7365f9a9.png"
+},
+"576460752303425681": {
+"name": "巴黎",
+"mode": "攻防作战",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2ee6bfe0c3de7a16ab2b4224b901838fa12434353e7e6acbabe09d25e2b3c5f2.png"
+},
+"576460752303425848": {
+"name": "帕拉伊苏",
+"mode": "攻击/护送",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163637-dvyuskzfch.jpg"
+},
+"576460752303426116": {
+"name": "哈瓦那",
+"mode": "运载目标",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163645-o24rdevylz.jpg"
+},
+"576460752303426139": {
+"name": "暴雪世界",
+"mode": "攻击/护送",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163634-rn0u4hbfsc.jpg"
+},
+"576460752303426170": {
+"name": "釜山寺院",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/61eaecb5af445917046c1fc439341bf4dcffdf73b6a402747f127d9049c884d6.png"
+},
+"576460752303426182": {
+"name": "釜山城区",
+"mode": "占领要点",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250312/155635-t4d6sayozi.png"
+},
+"576460752303426283": {
+"name": "新皇后街",
+"mode": "机动推进",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163641-wqm0hvpy62.jpg"
+},
+"576460752303426300": {
+"name": "里约热内卢",
+"mode": "行动任务",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b4efbd55fbb70f671d6b6a2a2ce3242aaed9f911b77e6946dd07cf7a823fad2e.png"
+},
+"576460752303426356": {
+"name": "斗兽场",
+"mode": "机动推进",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163639-ge1c50dtnr.jpg"
+},
+"576460752303426380": {
+"name": "中城",
+"mode": "攻击/护送",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163638-ygwj87mnas.jpg"
+},
+"576460752303426496": {
+"name": "多伦多",
+"mode": "行动任务",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e8eef6c928db5b9af7f112f514af19cc478b0c271902513d513d6d6bf05e9ed.png"
+},
+"576460752303426518": {
+"name": "哥德堡",
+"mode": "行动任务",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/0c78b2088c720078b14cc9b103401d7eead21c86ae392540266a2973eb6aa043.png"
+},
+"576460752303426624": {
+"name": "地图工坊岛屿",
+"mode": "地图工坊",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/791eb6b83888f96d128b802ec26259e9cf92b1334a99ecc1f7b5e1da01f6e28a.png"
+},
+"576460752303426628": {
+"name": "地图工坊空地",
+"mode": "地图工坊",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5b25d48e08057276c8e4e50ff784ec169b576d05bfd4f83d24c971775e9a83e0.png"
+},
+"576460752303426632": {
+"name": "地图工坊室内",
+"mode": "地图工坊",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/0f1a102ecd3e2a1c69de3645be2d61f5a84109d9aef71e6853d1e7678d44a9cc.png"
+},
+"576460752303426693": {
+"name": "香巴里寺院",
+"mode": "运载目标",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/0814d6173e415f2bf1a3de3ec7e6f4b9bcc9f0b1ea1d263a937b169c87f1935e.png"
+},
+"576460752303426734": {
+"name": "巴黎",
+"mode": "攻防作战",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2ee6bfe0c3de7a16ab2b4224b901838fa12434353e7e6acbabe09d25e2b3c5f2.png"
+},
+"576460752303426768": {
+"name": "地图工坊空地（夜间）",
+"mode": "地图工坊",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/80f5a57de7559d55ace570566d9a71e2931a8f5203239bdc74721560cc667f5d.png"
+},
+"576460752303426769": {
+"name": "地图工坊岛屿（夜间）",
+"mode": "地图工坊",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/621b42cc7df5ef89529159f3acdd4a023138b7b1208b97f3e6f53cc5ec584941.png"
+},
+"576460752303426771": {
+"name": "铁坂",
+"mode": "死斗",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1ec926c393dbfe662f836a4a44a7e2e51fdc2ee29e72732c5f25a5acd6d0caae.png"
+},
+"576460752303426775": {
+"name": "马莱温多",
+"mode": "死斗",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7081999737e164903344a7850ca58a50ecb1a623ec8e9d602b40301ac7b3850d.png"
+},
+"576460752303426780": {
+"name": "釜山体育场",
+"mode": "动感斗球",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8e1b647116ed43acb72b2f49c139d48197ec438679815784e52f667020bc7d4a.png"
+},
+"576460752303426795": {
+"name": "悉尼海港竞技场",
+"mode": "动感斗球",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5c8c54d479dd0db6b965c20832b71c6ed735b39ee0658c3e85e2afb0eb7dae86.png"
+},
+"576460752303426802": {
+"name": "南极半岛",
+"mode": "占领要点",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163646-shpoqgy71m.jpg"
+},
+"576460752303426878": {
+"name": "苏拉瓦萨",
+"mode": "闪点作战",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163643-ysajv8utpi.jpg"
+},
+"576460752303426892": {
+"name": "地图工坊绿幕",
+"mode": "地图工坊",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/acdfc715453a85e8d43df8dbdbaba8ea249eaa8e897ca55f09a916b1d505790d.png"
+},
+"576460752303426899": {
+"name": "埃斯佩兰萨",
+"mode": "机动推进",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163639-mqgyn39tj4.jpg"
+},
+"576460752303427091": {
+"name": "新渣客城",
+"mode": "闪点作战",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163643-tsd4ijylgn.jpg"
+},
+"576460752303427250": {
+"name": "鲁纳塞彼",
+"mode": "机动推进",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163640-78rq9woelv.jpg"
+},
+"576460752303427264": {
+"name": "萨摩亚",
+"mode": "占领要点",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163646-vqad7ljis5.jpg"
+},
+"576460752303427312": {
+"name": "教学模式",
+"mode": "训练模式",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5adfa439fc3cd4e0891c89780fd04252915f6f9d7192f11549dfba22605165c6.png"
+},
+"576460752303427322": {
+"name": "铁坂",
+"mode": "死斗",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1ec926c393dbfe662f836a4a44a7e2e51fdc2ee29e72732c5f25a5acd6d0caae.png"
+},
+"576460752303427345": {
+"name": "铁坂",
+"mode": "死斗",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1ec926c393dbfe662f836a4a44a7e2e51fdc2ee29e72732c5f25a5acd6d0caae.png"
+},
+"576460752303427346": {
+"name": "铁坂",
+"mode": "死斗",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1ec926c393dbfe662f836a4a44a7e2e51fdc2ee29e72732c5f25a5acd6d0caae.png"
+},
+"576460752303427554": {
+"name": "英雄精通：索杰恩",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303427574": {
+"name": "英雄精通：莱因哈特",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303427575": {
+"name": "英雄精通",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303427579": {
+"name": "英雄精通：猎空",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303427585": {
+"name": "英雄精通：士兵：76",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303427608": {
+"name": "国王大道",
+"mode": "攻击/护送",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163635-navdsz75oy.jpg"
+},
+"576460752303427634": {
+"name": "斗兽场",
+"mode": "机动推进",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163639-ge1c50dtnr.jpg"
+},
+"576460752303427654": {
+"name": "英雄精通：源氏",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303427662": {
+"name": "英雄精通：温斯顿",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303427666": {
+"name": "英雄精通：天使",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303427679": {
+"name": "英雄精通：查莉娅",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303427683": {
+"name": "英雄精通：法老之鹰",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303427686": {
+"name": "英雄精通：回声",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303427719": {
+"name": "英雄精通：试炼场",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/416e4a1fbd73619390c9f7e7c23ae4fa303c77e34e8fc80e60d26eabe6129e7e.png"
+},
+"576460752303427770": {
+"name": "英雄精通：美",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303427798": {
+"name": "南极半岛",
+"mode": "占领要点",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163646-vqad7ljis5.jpg"
+},
+"576460752303427799": {
+"name": "英雄精通：雾子",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303427844": {
+"name": "哥德堡",
+"mode": "行动任务",
+"icon": ""
+},
+"576460752303427865": {
+"name": "英雄精通：D.Va",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303427880": {
+"name": "寺院",
+"mode": "占领要点",
+"icon": ""
+},
+"576460752303427927": {
+"name": "花冈",
+"mode": "攻防阵线",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250523/152513-lzofqm04yi.png"
+},
+"576460752303427936": {
+"name": "阿努比斯王座",
+"mode": "攻防阵线",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250523/152513-pq9u6g4ohm.png"
+},
+"576460752303427970": {
+"name": "英雄精通：布丽吉塔",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303427992": {
+"name": "英雄精通：艾什",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303428097": {
+"name": "英雄精通：卡西迪",
+"mode": "英雄精通",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5e9e73aa1167c54601e82229daec72e27d7d12756c4b756d748bb2f642f96106.png"
+},
+"576460752303428110": {
+"name": "监测站：直布罗陀",
+"mode": "运载目标",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163645-l5p8ymkcj9.jpg"
+},
+"576460752303428170": {
+"name": "黑森林",
+"mode": "决斗先锋",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/aeb149db5d67cc39ad9049f6059fc76bdda6beb2aa83039ae54054e37430ad47.png"
+},
+"576460752303428233": {
+"name": "阿努比斯王座",
+"mode": "攻防阵线",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250523/152513-pq9u6g4ohm.png"
+},
+"576460752303428286": {
+"name": "阿德勒斯布鲁恩",
+"mode": "攻击/护送",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250312/155633-13z9hfstaw.png"
+},
+"576460752303428299": {
+"name": "巴黎",
+"mode": "攻防作战",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2ee6bfe0c3de7a16ab2b4224b901838fa12434353e7e6acbabe09d25e2b3c5f2.png"
+},
+"576460752303428186": {
+"name": "高架车站",
+"mode": "占领要点",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250523/152513-cb7z6ngm3l.png"
+},
+"576460752303428190": {
+"name": "拉克瓦广场",
+"mode": "机动推进",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250523/152718-8lyks3h6jg.png"
+},
+"576460752303428192": {
+"name": "红杉水坝",
+"mode": "机动推进",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250523/152513-jy1lwfr3st.png"
+},
+"576460752303428219": {
+"name": "伊利奥斯 - 废墟",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/506344d11e824a1aaa55f59ad2cc5a4e781cd8fe8f6556f5ebc33d680bf1965e.png"
+},
+"576460752303428266": {
+"name": "维多利亚竞技场",
+"mode": "占领要点",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250523/152513-tzrqfki92j.png"
+},
+"576460752303428277": {
+"name": "阿努比斯王座",
+"mode": "攻防阵线",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250523/152513-pq9u6g4ohm.png"
+},
+"576460752303428278": {
+"name": "花冈",
+"mode": "攻防阵线",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250523/152513-lzofqm04yi.png"
+},
+"576460752303428279": {
+"name": "斗兽场",
+"mode": "机动推进",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163639-ge1c50dtnr.jpg"
+},
+"576460752303428337": {
+"name": "尼泊尔 - 圣坛",
+"mode": "占领要点",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5b293be895324c98ec8c9d4c3426cb7831866c42e1437c63e4e91a4fe402f188.png"
+},
+"576460752303428397": {
+"name": "哈瓦那",
+"mode": "运载目标",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250311/163645-o24rdevylz.jpg"
+},
+"576460752303427628": {
+"name": "霓虹枢纽",
+"mode": "攻击/护送",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20260617/181740-39ev54w1oa.png"
+},
+"576460752303427381": {
+"name": "阿特利斯",
+"mode": "闪点作战",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250725/164721-4r86vyscji.png"
+}
+}

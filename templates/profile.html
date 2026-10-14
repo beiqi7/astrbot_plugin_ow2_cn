@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1200, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #0e1621;
+      --card: rgba(255, 255, 255, .045);
+      --card-border: rgba(148, 163, 184, .20);
+      --text: #e9eef5;
+      --muted: #94a3b8;
+      --dim: #64748b;
+      --accent: #f5a623;
+      --win: #4ade80;
+      --loss: #f87171;
+      --draw: #cbd5e1;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { background: var(--bg); }
+    body {
+      width: 1200px;
+      padding: 26px 28px 30px;
+      background: linear-gradient(165deg, #0e1621 0%, #16202d 55%, #0f1a26 100%);
+      color: var(--text);
+      font-family: "Noto Sans CJK SC", "Noto Sans SC", "Source Han Sans SC",
+                   "Microsoft YaHei", "PingFang SC", "WenQuanYi Micro Hei", sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+    .num { font-variant-numeric: tabular-nums; }
+
+    /* ---------- 头部 ---------- */
+    .head {
+      display: flex; align-items: center; gap: 18px;
+      padding: 20px 22px; margin-bottom: 18px;
+      background: linear-gradient(120deg, rgba(245, 166, 35, .13), rgba(125, 211, 252, .07));
+      border: 1px solid var(--card-border); border-radius: 16px;
+    }
+    .avatar {
+      width: 84px; height: 84px; flex: none; border-radius: 50%;
+      border: 2px solid rgba(245, 166, 35, .65); object-fit: cover;
+      background: rgba(148, 163, 184, .12);
+    }
+    .head-main { flex: 1; min-width: 0; }
+    .name { font-size: 30px; font-weight: 700; letter-spacing: .5px; }
+    .tag { font-size: 17px; color: var(--muted); font-weight: 500; margin-left: 8px; }
+    .subtitle { margin-top: 8px; font-size: 14px; color: var(--muted); }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .chip {
+      padding: 4px 11px; border-radius: 999px; font-size: 13px;
+      background: rgba(148, 163, 184, .12); color: #cbd5e1;
+      border: 1px solid rgba(148, 163, 184, .16);
+    }
+    .chip b { color: var(--text); font-weight: 600; }
+    .chip.warn { background: rgba(248, 113, 113, .14); color: #fca5a5; }
+    .mode-badge {
+      flex: none; align-self: flex-start; padding: 6px 14px; border-radius: 999px;
+      font-size: 14px; font-weight: 600; color: var(--accent);
+      background: rgba(245, 166, 35, .16); border: 1px solid rgba(245, 166, 35, .35);
+    }
+
+    /* ---------- 三栏概览 ---------- */
+    .overview { display: grid; grid-template-columns: 372px 1fr 268px; gap: 16px; margin-bottom: 18px; }
+    .card {
+      background: var(--card); border: 1px solid var(--card-border);
+      border-radius: 14px; padding: 16px 18px;
+    }
+    h3 {
+      font-size: 15px; color: var(--accent); font-weight: 600;
+      letter-spacing: 1px; margin-bottom: 14px;
+      display: flex; align-items: baseline; gap: 8px;
+    }
+    h3 .note { font-size: 12px; color: var(--dim); letter-spacing: 0; font-weight: 400; }
+
+    /* 段位 */
+    .rank-row { padding: 9px 0; border-bottom: 1px solid rgba(148, 163, 184, .10); }
+    .rank-row:last-child { border-bottom: 0; padding-bottom: 0; }
+    .rank-top { display: flex; align-items: center; gap: 10px; }
+    .rank-role { width: 42px; flex: none; color: var(--muted); font-size: 14px; }
+    .badge {
+      flex: none; min-width: 74px; text-align: center;
+      padding: 3px 9px; border-radius: 7px; font-size: 14px; font-weight: 600;
+      border: 1px solid currentColor;
+    }
+    .rank-stats { margin-left: auto; font-size: 13px; color: var(--muted); text-align: right; }
+    .rank-stats b { color: var(--text); font-weight: 600; }
+    .rank-peak { margin: 4px 0 0 52px; font-size: 12px; color: var(--dim); }
+
+    .badge.bronze      { color: #b08968; background: rgba(176, 137, 104, .14); }
+    .badge.silver      { color: #cbd5e1; background: rgba(203, 213, 225, .12); }
+    .badge.gold        { color: #f5c451; background: rgba(245, 196, 81, .14); }
+    .badge.platinum    { color: #7dd3fc; background: rgba(125, 211, 252, .14); }
+    .badge.emerald     { color: #34d399; background: rgba(52, 211, 153, .14); }
+    .badge.diamond     { color: #a5b4fc; background: rgba(165, 180, 252, .16); }
+    .badge.master      { color: #f0abfc; background: rgba(240, 171, 252, .14); }
+    .badge.grandmaster { color: #fca5a5; background: rgba(252, 165, 165, .14); }
+    .badge.champion    { color: #fcd34d; background: rgba(252, 211, 77, .18); }
+    .badge.unranked    { color: var(--dim); background: rgba(100, 116, 139, .14); }
+
+    /* 近期 vs 赛季 */
+    .stat-head, .stat-row {
+      display: grid; grid-template-columns: 44px 58px 1fr 58px;
+      align-items: center; gap: 10px;
+    }
+    .stat-head { font-size: 12px; color: var(--dim); padding-bottom: 8px; }
+    .stat-head .col-now { text-align: right; }
+    .stat-head .col-season { text-align: left; }
+    .stat-row { padding: 7px 0; border-top: 1px solid rgba(148, 163, 184, .10); }
+    .stat-label { color: var(--muted); font-size: 14px; }
+    .stat-now { text-align: right; font-size: 15px; font-weight: 600; }
+    .stat-season { font-size: 14px; color: var(--muted); }
+    .bars { display: flex; flex-direction: column; gap: 4px; }
+    .bar { height: 8px; border-radius: 999px; background: rgba(148, 163, 184, .13); overflow: hidden; }
+    .bar > span { display: block; height: 100%; border-radius: 999px; }
+    .bar.now > span { background: linear-gradient(90deg, #f5a623, #fbbf24); }
+    .bar.season > span { background: rgba(125, 211, 252, .55); }
+    .lower-better { color: var(--dim); font-size: 12px; }
+
+    /* 本周表现 */
+    .weekly-comment {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 11px 14px; margin-bottom: 12px; border-radius: 10px;
+      background: rgba(74, 222, 128, .10); border: 1px solid rgba(74, 222, 128, .22);
+    }
+    .weekly-comment .label { font-size: 13px; color: var(--muted); }
+    .weekly-comment .value { font-size: 20px; font-weight: 700; color: var(--win); }
+    .weekly-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .weekly-cell {
+      padding: 10px 12px; border-radius: 10px;
+      background: rgba(148, 163, 184, .08);
+    }
+    .weekly-cell .k { font-size: 12px; color: var(--muted); }
+    .weekly-cell .v { font-size: 19px; font-weight: 600; margin-top: 3px; }
+
+    /* ---------- 常用英雄 ---------- */
+    .section { margin-bottom: 18px; }
+    .hero-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .hero {
+      background: var(--card); border: 1px solid var(--card-border);
+      border-radius: 12px; padding: 12px 14px;
+    }
+    .hero-top { display: flex; align-items: center; gap: 12px; }
+    .hero img {
+      width: 46px; height: 46px; flex: none; border-radius: 9px;
+      object-fit: cover; background: rgba(148, 163, 184, .12);
+    }
+    .hero-main { flex: 1; min-width: 0; }
+    .hero-name { font-size: 16px; font-weight: 600; }
+    .hero-name .lv { font-size: 12px; color: var(--accent); margin-left: 6px; font-weight: 500; }
+    .hero-meta { font-size: 13px; color: var(--muted); margin-top: 2px; }
+    .hero-meta .wr { color: var(--text); font-weight: 600; }
+    .hero-wl { text-align: right; font-size: 13px; color: var(--muted); flex: none; }
+    .hero-wl b { display: block; font-size: 16px; color: var(--text); }
+    .hero-stats {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px;
+      margin-top: 10px; padding-top: 10px;
+      border-top: 1px solid rgba(148, 163, 184, .10);
+    }
+    .hero-stat { padding: 6px 10px; border-radius: 8px; background: rgba(148, 163, 184, .08); }
+    .hero-stat .k { font-size: 12px; color: var(--muted); }
+    .hero-stat .v { font-size: 16px; font-weight: 600; margin-top: 1px; }
+    .hero-stat.damage .v { color: #fb923c; }
+    .hero-stat.healing .v { color: #4ade80; }
+
+    /* ---------- 最近对局 ---------- */
+    table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+    thead th {
+      font-size: 12px; font-weight: 500; color: var(--dim); text-align: left;
+      padding: 0 10px 9px; border-bottom: 1px solid rgba(148, 163, 184, .22);
+    }
+    tbody td {
+      padding: 9px 10px; font-size: 14px; color: #cbd5e1;
+      border-bottom: 1px solid rgba(148, 163, 184, .10);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    tbody tr:last-child td { border-bottom: 0; }
+    .c-idx { color: var(--dim); }
+    .c-result { font-weight: 600; }
+    .c-result.win { color: var(--win); }
+    .c-result.loss { color: var(--loss); }
+    .c-result.draw { color: var(--draw); }
+    .c-score { color: var(--muted); }
+    .c-map { color: var(--text); }
+    .c-hero { display: flex; align-items: center; gap: 7px; }
+    .c-hero img {
+      width: 24px; height: 24px; flex: none; border-radius: 5px;
+      object-fit: cover; background: rgba(148, 163, 184, .12);
+    }
+    .c-hero .role { color: var(--dim); font-size: 12px; }
+    .c-when { color: var(--dim); font-size: 13px; text-align: right; }
+    .num-cell { text-align: right; }
+
+    .empty { color: var(--muted); font-size: 14px; padding: 10px 2px; }
+    .footer { margin-top: 16px; text-align: center; font-size: 12px; color: var(--dim); }
+  </style>
+</head>
+<body>
+  <div class="head">
+    {% if icon %}<img class="avatar" src="{{ icon }}" alt="" onerror="this.style.visibility='hidden'" />{% endif %}
+    <div class="head-main">
+      <div class="name">{{ display_name }}<span class="tag">{{ tag }}</span></div>
+      <div class="subtitle">
+        {% if title %}称号 {{ title }}{% endif %}
+        {% if title %} · {% endif %}{{ mode }}模式
+      </div>
+      <div class="chips">
+        {% if level is not none %}<span class="chip">称号等级 <b>{{ level }}</b></span>{% endif %}
+        <span class="chip">总时长 <b>{{ game_time }}</b> 小时</span>
+        {% if total_match %}<span class="chip">总场次 <b class="num">{{ total_match }}</b></span>{% endif %}
+        {% if suspended %}<span class="chip warn">账号处于封禁/限制状态</span>{% endif %}
+      </div>
+    </div>
+    <div class="mode-badge">{{ mode }}</div>
+  </div>
+
+  <div class="overview">
+    <div class="card">
+      <h3>{% if has_rank %}段位{% else %}职责数据{% endif %}</h3>
+      {% if roles %}
+        {% for role in roles %}
+        <div class="rank-row">
+          <div class="rank-top">
+            <span class="rank-role">{{ role.role }}</span>
+            {% if has_rank %}<span class="badge {{ role.tier }}">{{ role.rank }}</span>{% endif %}
+            <span class="rank-stats">
+              {% if role.match_sum %}<b class="num">{{ role.match_sum }}</b> 场{% endif %}
+              {% if role.win_rate and role.win_rate != '-' %} · <b>{{ role.win_rate }}</b>{% endif %}
+              {% if role.kda != '-' %} · KDA <b>{{ role.kda }}</b>{% endif %}
+            </span>
+          </div>
+          {% if has_rank and role.max_rank and role.max_rank != role.rank %}
+          <div class="rank-peak">历史最高 {{ role.max_rank }}</div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      {% else %}
+        <div class="empty">暂无数据</div>
+      {% endif %}
+    </div>
+
+    <div class="card">
+      <h3>表现对比 <span class="note">近期 vs 本赛季场均</span></h3>
+      {% if stat_bars %}
+      <div class="stat-head">
+        <span></span>
+        <span class="col-now">近期</span>
+        <span></span>
+        <span class="col-season">赛季</span>
+      </div>
+      {% for row in stat_bars %}
+      <div class="stat-row">
+        <span class="stat-label">{{ row.label }}</span>
+        <span class="stat-now num">{{ row.recent }}</span>
+        <span class="bars">
+          <span class="bar now"><span style="width: {{ row.recent_pct }}%"></span></span>
+          <span class="bar season"><span style="width: {{ row.season_pct }}%"></span></span>
+        </span>
+        <span class="stat-season num">{{ row.season }}{% if row.lower_better %} <span class="lower-better">↓好</span>{% endif %}</span>
+      </div>
+      {% endfor %}
+      {% else %}
+        <div class="empty">暂无场均数据</div>
+      {% endif %}
+    </div>
+
+    <div class="card">
+      <h3>本周表现</h3>
+      {% if behavior %}
+      <div class="weekly-comment">
+        <span class="label">行为评价</span>
+        <span class="value">{{ behavior.comment }}</span>
+      </div>
+      <div class="weekly-grid">
+        <div class="weekly-cell"><div class="k">收到点赞</div><div class="v num">{{ behavior.honors_received }}</div></div>
+        <div class="weekly-cell"><div class="k">送出点赞</div><div class="v num">{{ behavior.honors_sent }}</div></div>
+        <div class="weekly-cell"><div class="k">被举报</div><div class="v num">{{ behavior.reported }}</div></div>
+        <div class="weekly-cell"><div class="k">赛季场次</div><div class="v num">{{ season_match_sum or '-' }}</div></div>
+      </div>
+      {% else %}
+        <div class="empty">暂无本周数据</div>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if heroes %}
+  <div class="section">
+    <div style="display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px;">
+      <h3 style="margin-bottom: 0;">常用英雄</h3>
+      <span class="note" style="font-size: 12px; color: var(--dim);">{{ mode }}模式 · 按场次排序 · 数据为每 10 分钟</span>
+    </div>
+    <div class="hero-grid">
+      {% for hero in heroes %}
+      <div class="hero">
+        <div class="hero-top">
+          {% if hero.icon %}<img src="{{ hero.icon }}" alt="" onerror="this.style.visibility='hidden'" />{% endif %}
+          <div class="hero-main">
+            <div class="hero-name">{{ hero.hero }}{% if hero.level %}<span class="lv">Lv{{ hero.level }}</span>{% endif %}</div>
+            <div class="hero-meta">
+              {{ hero.role }} · <span class="num">{{ hero.match_sum or 0 }}</span> 场 ·
+              胜率 <span class="wr">{{ hero.win_rate }}</span> · {{ hero.game_time }}
+            </div>
+          </div>
+          <div class="hero-wl">
+            <b class="num">{{ hero.win_sum or 0 }}<span style="color: var(--dim); font-weight: 400;">/{{ hero.loss_sum or 0 }}</span></b>
+            胜/负
+          </div>
+        </div>
+        {% if hero.per10 %}
+        <div class="hero-stats">
+          {% for cell in hero.per10 %}
+          <div class="hero-stat {{ cell.key }}"><div class="k">{{ cell.label }}</div><div class="v num">{{ cell.value }}</div></div>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="section">
+    <h3 style="margin-bottom: 12px;">最近对局 <span class="note">{{ mode }}模式 · 最近 {{ matches|length }} 场</span></h3>
+    {% if matches %}
+    <div class="card" style="padding: 14px 16px 6px;">
+      <table>
+        <colgroup>
+          <col style="width: 44px" /><col style="width: 96px" /><col style="width: 66px" />
+          <col style="width: 172px" /><col style="width: 196px" /><col style="width: 110px" />
+          <col style="width: 110px" /><col style="width: 120px" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>#</th><th>结果</th><th>比分</th><th>地图</th>
+            <th>英雄</th><th class="num-cell">KDA</th><th class="num-cell">伤害 / 治疗</th><th class="num-cell">时间</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for match in matches %}
+          <tr>
+            <td class="c-idx num">{{ loop.index }}</td>
+            <td class="c-result {{ match.result_key }}">{{ match.result }}</td>
+            <td class="c-score num">{{ match.score }}</td>
+            <td class="c-map">{{ match.map }}</td>
+            <td>
+              <span class="c-hero">
+                {% if match.hero_icon %}<img src="{{ match.hero_icon }}" alt="" onerror="this.style.visibility='hidden'" />{% endif %}
+                <span>{{ match.hero }}</span>
+                <span class="role">{{ match.role }}</span>
+              </span>
+            </td>
+            <td class="num-cell num">{{ match.kda }}</td>
+            <td class="num-cell num">{{ match.damage_text }}{% if match.cure %} / {{ match.cure_text }}{% endif %}</td>
+            <td class="c-when">{{ match.when }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% else %}
+      <div class="card"><div class="empty">没有取到对局记录，该模式可能还没打过。</div></div>
+    {% endif %}
+  </div>
+
+  <div class="footer">数据来源：网易大神（网易 DD）· Overstats · 由 AstrBot 插件 astrbot_plugin_ow2_cn 渲染</div>
+</body>
+</html>

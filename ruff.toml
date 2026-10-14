@@ -1,0 +1,19 @@
+# AstrBot 插件推荐使用 ruff 规范代码（见 AstrBot 插件开发原则）
+target-version = "py310"
+line-length = 100
+
+[lint]
+extend-select = ["I", "UP", "F", "W", "E", "B", "RUF"]
+ignore = [
+    # 插件需要在命令处理里兜底捕获异常，避免单个错误让整个插件崩溃
+    "BLE001",
+    "E501",
+    # 中文项目：全角标点属于正常写法
+    "RUF001",
+    "RUF002",
+    "RUF003",
+]
+
+[lint.per-file-ignores]
+# 测试脚本依赖 sys.path 注入后再导入
+"tests/*" = ["E402", "F401", "PYI034"]

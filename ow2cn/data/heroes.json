@@ -1,0 +1,267 @@
+{
+"207165582859042818": {
+"name": "死神",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b7aac87959afbe062cc31518ded04b9dbcadb0a2282f8963c6bfd5ba0a2d6a27.png"
+},
+"207165582859042819": {
+"name": "猎空",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5ee20a1feed14da5153f19745328e9fc02bd79f8109593a9b7dab9283eb9629b.png"
+},
+"207165582859042820": {
+"name": "天使",
+"role": "healer",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c889fade479003fac5a1ff46a05aee7b0dc88fbb8d2d4b75e4be31159eb1f816.png"
+},
+"207165582859042821": {
+"name": "半藏",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3febc2e638ff56d8f0161ea278ac3116b5baf8c0328f1eded6b499552a0eccad.png"
+},
+"207165582859042822": {
+"name": "托比昂",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2ef3a4bdd117829a83867a7775ece351c4226f29b24cdbf8d7fac89443e8d8a2.png"
+},
+"207165582859042823": {
+"name": "莱因哈特",
+"role": "tank",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b5e3a4f5629a3acfd47b5d2e695e79ea964b060bf67b7e4f8f15e63accd5f934.png"
+},
+"207165582859042824": {
+"name": "法老之鹰",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/93d639075993fdef3402aa9131f93be7789a33a11dc0099f2f88d22dda09c175.png"
+},
+"207165582859042825": {
+"name": "温斯顿",
+"role": "tank",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6a9a37012551410b46b2c28146404354fe21e4a1e8ea65db4e1e497eeaa05c71.png"
+},
+"207165582859042826": {
+"name": "黑百合",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b4871b9addd770582c8b6a1ab366b9ec08d986c2995248ee5fce7e15cb0d809d.png"
+},
+"207165582859042837": {
+"name": "堡垒",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3a7dc6d45ce7a1e1c2d31bd4d88b4889c412b2003ad82d1fd8e41271952c1f68.png"
+},
+"207165582859042838": {
+"name": "秩序之光",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b0a19d5c8b0e299705036f4d0b9394da5ff415dc0dcd4e9207b6e63254022dff.png"
+},
+"207165582859042848": {
+"name": "禅雅塔",
+"role": "healer",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9367143a32f3fc07781330a0b26c6f1087361204a2b7e4088d1daf26428273f2.png"
+},
+"207165582859042857": {
+"name": "源氏",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/190a3dd9a5a4c8daeff9ec4da861f43cb28116964e89dc7416da104d8fae9134.png"
+},
+"207165582859042880": {
+"name": "路霸",
+"role": "tank",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b6f4e837dc41e87d730f6b0fad3473e689c8bdcd1f732b97326ac08b0508f2ee.png"
+},
+"207165582859042882": {
+"name": "卡西迪",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8d161c49df5a962ece9ceafc6500bea473d9dd3695b9e24e39d5be616295e6c5.png"
+},
+"207165582859042917": {
+"name": "狂鼠",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d3628dc64d78ca6dc2a8b509cf5a6fc417c0f5068d5f75d1f5c094be1f58ee4e.png"
+},
+"207165582859042920": {
+"name": "查莉娅",
+"role": "tank",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d43075cba10cd711a129556142849587e78f1f55b0105d39a640da53ffa64e1b.png"
+},
+"207165582859042926": {
+"name": "士兵：76",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1cb6f3ad4b8afdc1a901c26180a4c134018bb805b91eefe9b7cf2946879f10c8.png"
+},
+"207165582859042937": {
+"name": "卢西奥",
+"role": "healer",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/dee7e92975f5e659fa6b28c508d8fbad62bda720698b1d21f2492af7b9f94b48.png"
+},
+"207165582859042938": {
+"name": "D.Va",
+"role": "tank",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e69a3d819fd46d0dcd1d9474c248a95e69519c20077c60e9de73a1e2d3acdbb6.png"
+},
+"207165582859043037": {
+"name": "美",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/08586dceed41e030d575b2b643118f55390f1c2af91dd15394528f5399fcc934.png"
+},
+"207165582859043118": {
+"name": "黑影",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f348c1704dc50c009ac8acf6912a5a77eaf2a3acdd34e56927190af9eb9145d1.png"
+},
+"207165582859043119": {
+"name": "末日铁拳",
+"role": "tank",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bc538b345188bdcb2d2be5b2894d471ba54aeea53b03862429205ed49d693bbe.png"
+},
+"207165582859043131": {
+"name": "安娜",
+"role": "healer",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/86debddbaaaf8699d68775a9dbffaf5b8db514772b77ff7234b1ff84c0b29fd5.png"
+},
+"207165582859043134": {
+"name": "奥丽莎",
+"role": "tank",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/20c12a10cfe0b5608f9eec63a74ecb0ccd18a114019bc77bb2765f87776e17ed.png"
+},
+"207165582859043221": {
+"name": "布丽吉塔",
+"role": "healer",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/51b93ea59f369a1defa78e5d08c12b1391f5d2d94614a51fd95c125a7a6151fa.png"
+},
+"207165582859043234": {
+"name": "莫伊拉",
+"role": "healer",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/90fa2b69a7b80ae6d57c9ea6f3387dd18dfc1728bdb26949d28a17b98dd4e5f7.png"
+},
+"207165582859043274": {
+"name": "破坏球",
+"role": "tank",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f71d6948e8b6ae340e20ab569ef66d24aead6032c34a7ec09a00ea864b413a24.png"
+},
+"207165582859043308": {
+"name": "索杰恩",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/515f25a729a4a3f51d956fc54c600dc60d8e5242f2b188c178496cea1a2e11b5.png"
+},
+"207165582859043328": {
+"name": "艾什",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e41d918d0e7ffa772b5571df3d0dc1a05e6d9032307f78be935972cfd59f208a.png"
+},
+"207165582859043334": {
+"name": "回声",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/0dc3f1679d739ef530ba2b8cbe02bf09f4d40a57c0af84f694a3241d3a7ef948.png"
+},
+"207165582859043361": {
+"name": "巴蒂斯特",
+"role": "healer",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5ac801c6fe84f83fe5015af89858cbdfb2ec9d32d141f582889b5381fd0195fc.png"
+},
+"207165582859043377": {
+"name": "雾子",
+"role": "healer",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/24d1d7bf86c331b3d81b934442ed36fd0121f6815255c6f26f456127fb342d15.png"
+},
+"207165582859043382": {
+"name": "渣客女王",
+"role": "tank",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/cf66adfac58a0321ec1f7d3a7241d6bf2f3b311707064d2f0ace2e3f4e342727.png"
+},
+"207165582859043387": {
+"name": "西格玛",
+"role": "tank",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9738e1687bf7064de3667169788ef1b5ea9cf1746a42753c767cf17c7cb67547.png"
+},
+"207165582859043469": {
+"name": "拉玛刹",
+"role": "tank",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/cf69d4bfa61ac14f61d3d541b0d2687a20fa24f55afe7a392d746f5ccb138dea.png"
+},
+"207165582859043473": {
+"name": "生命之梭",
+"role": "healer",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/57d5014ab6034db9138f838e8450693b4a97ab3c54f85d594b199a8853e75ccb.png"
+},
+"207165582859043594": {
+"name": "毛加",
+"role": "tank",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6dbd80a0b40bd0464db35948f98d91ecc6dfcede8c94ff9b1ecefda781a7aa1f.png"
+},
+"207165582859043612": {
+"name": "伊拉锐",
+"role": "healer",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f33f6fe94ad55fcf9027e779f66afac358a2f93651070b95cd565ff90d670c8b.png"
+},
+"207165582859043627": {
+"name": "探奇",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4c5bad8535b648d9dcf4c369e0ab5b9d67685b8ddaee22139eaa63bc5c5a3183.png"
+},
+"207165582859043682": {
+"name": "骇灾",
+"role": "tank",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/22fc6ca76249d7cd37bad808d53a68986da855c625475a46ec3858abecf57823.png"
+},
+"207165582859043685": {
+"name": "朱诺",
+"role": "healer",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2a65bf12035f9c255833693224cad83fd98cead625fdf1b9da8359a7f259e01c.png"
+},
+"207165582859043626": {
+"name": "弗蕾娅",
+"role": "dps",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250424/104606-iy7wg4l9vc.png"
+},
+"207165582859043779": {
+"name": "无漾",
+"role": "healer",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20250812/105333-z5w43jcaod.png"
+},
+"207165582859044061": {
+"name": "安燃",
+"role": "dps",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20260205/174003-3pnrac2iu6.png"
+},
+"207165582859044056": {
+"name": "埃姆雷",
+"role": "dps",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20260210/154931-6pmybsidqz.png"
+},
+"207165582859044036": {
+"name": "金驭",
+"role": "tank",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20260210/154927-5j4q19szme.png"
+},
+"207165582859044067": {
+"name": "瑞稀",
+"role": "healer",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20260210/154925-d31sy498ir.png"
+},
+"207165582859044118": {
+"name": "飞天猫",
+"role": "healer",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20260210/154930-kt97nez3cm.png"
+},
+"207165582859043954": {
+"name": "斩仇",
+"role": "dps",
+"icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d7cc86b5b0180f07499570e6c51efc349a9e4a2de65efedcccaaf047d1941020.png"
+},
+"207165582859044050": {
+"name": "西拉",
+"role": "dps",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20260409/093806-jsn02kgu8a.png"
+},
+"207165582859044140": {
+"name": "死怨",
+"role": "dps",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20260617/103249-y40i5fglj9.png"
+},
+"207165582859044162": {
+"name": "D.Mon",
+"role": "tank",
+"icon": "https://img.166.net/gameyw-misc/opd/squash/20260812/030234-bekicjoms2.png"
+}
+}

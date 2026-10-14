@@ -1,0 +1,14 @@
+name: astrbot_plugin_ow2_cn
+display_name: 守望先锋2国服战绩
+short_desc: 在 QQ 群查询《守望先锋 2》国服战绩：段位、胜率、近期对局、英雄数据
+desc: >-
+  基于网易大神（网易 DD）数据源的《守望先锋 2》国服战绩查询插件。
+  提供 /ow 绑定、战绩、对局、英雄、资料、解绑、帮助 等指令，
+  支持群内共用绑定与个人绑定，支持 @群友 或直接输入 BattleTag 查询。
+  数据源可切换：直连网易大神上游（需要大神 token）或指向自建 Overstats 服务（插件端零 token）。
+version: v1.2.1
+author: serenite
+repo: https://github.com/beiqi7/astrbot_plugin_ow2_cn
+support_platforms:
+  - aiocqhttp
+astrbot_version: ">=4.5.0"
